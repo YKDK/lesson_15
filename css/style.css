@@ -53,14 +53,14 @@ body{
 	
 }
 
-.item__link{
+.items__link{
 	font-weight: 700;
 	line-height: 1.6;
 	position: relative;
 }
 
 
-.item__link::after{
+.items__link::after{
 	content: "";
 	position: absolute;
 	bottom: 0;
@@ -70,7 +70,7 @@ body{
 	background-color: #424551;
 	transition: width 0.3s ease 0s;
 }
-.item__link:hover::after{
+.items__link:hover::after{
 	width: 100%;
 }
 
