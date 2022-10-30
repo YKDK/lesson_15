@@ -18,7 +18,7 @@ body{
 
 
 .header{
-	position: fixed;
+	position: absolute;
 	width: 100%;
 	left: 0;
 	top: 0;
@@ -40,6 +40,9 @@ body{
 }
 .header__title img{
 	max-width: 100%;
+}
+.header__title {
+	flex: 0 0 auto;
 }
 
 .header__nav {
@@ -173,6 +176,10 @@ animation: border-play 1s infinite alternate linear 0s;
 	margin-bottom: 60px;
 	max-width: 550px;
 }
+
+.body-section__image{
+	flex: 1 1 50%;
+}
 .body-section__image img{
 	max-width: 108%;
 	transform: translate(8%, 0);
@@ -291,7 +298,11 @@ animation: border-play 1s infinite alternate linear 0s;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	column-gap: 5%;
+}
 
+.learn__image{
+	flex: 0 0 60%;
 }
 .learn__image img{
 	max-width: 100%;
